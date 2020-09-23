@@ -24,8 +24,8 @@ on:
 env:
   GKE_PROJECT: ${{ secrets.PROJECT_ID }}
   GITHUB_SHA: ${{ github.sha }}
-  GKE_ZONE: australia-southeast1
-  GKE_CLUSTER: ingress-cluster
+  GKE_ZONE: us-central1
+  GKE_CLUSTER: ingress-cluster-harley
   NAMESPACE: lab
   IMAGE: example-app
   WORKLOAD_NAME: example
